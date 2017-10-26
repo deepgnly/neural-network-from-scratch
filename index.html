@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+    .eachClassDiagram {
+        height: 200px;
+        width: 300px;
+        border: 1px;
+        border-style: solid;
+        border-color: #ff0000;
+        margin: 30px;
+        position: relative;
+    }
+
+    .horizontalSpan {
+        float: left;
+    }
+
+    .propContainer {
+        margin: 10px;
+    }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.15/p5.js"></script>
+    <script type="text/javascript" src="external_libs/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+    <script type="text/javascript" src="external_libs/require.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <button id="startTraining">Start Training</button>
+    <svg id="svgContainer">
+        <circle cx="30" cy="08" r="10" stroke="black" stroke-width="3" fill="red" />
+    </svg>
+    <canvas id="myChart"></canvas>
+    <div id="metaInfoContainer">
+        <div id="passNumber"></div>
+        <div id="propagationOperation"></div>
+    </div>
+    <div id="neuronContainer"></div>
+</body>
+
+</html>
